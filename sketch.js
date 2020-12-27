@@ -1,14 +1,11 @@
 var car,wall,speed,weight;
 
-
-
-
 function setup() {
   createCanvas(800,400);
   car = createSprite(400, 200, 50, 50);
   car.shapeColor="white";
   wall = createSprite(700, 200, 50, 200);
-  wall.shapeColor="gray";
+  wall.shapeColor="blue";
   speed=random(55,90);
   weight=random(400,1500);
   car.velocityX=speed
